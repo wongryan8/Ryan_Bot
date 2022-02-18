@@ -19,7 +19,7 @@ if (msg.content.toLowerCase() === "website") {
   msg.channel.send("https://wongryan8.github.io/recipes/")
 
 } else if (msg.content.toLowerCase() === "updates" || msg.content.toLowerCase() === "update") {
-  msg.channel.send("__1/15/22__: Began learning HTML/CSS web development. See my progress at my personal website here: https://wongryan8.github.io/recipes/\n__1/3/22__: Completed Tic-Tac-Toe with the option to play versus other players or RyanBot. Try ***help ttt*** for instructions.\n__12/30/21__: Completed the 21 Pickup Game with full emoji capabilities as user inputs and MongoDB statistics. Try ***pickup*** for instructions.\n__12/19/21__: Completed the stats functionality for Blackjack on MongoDB.\n__12/5/21__: Moved database to Google API and MongoDB to avoid rollback of data. Enhanced blackjack and betting tool functionalities.\n__11/21/21__: Finished the Blackjack game. Try ***help blackjack*** for instructions.\n__11/8/21__: The Betting Tool has been completed. Try ***help bet*** for instructions.\n__11/7/21__: Added ***collect*** and ***balances*** commands for point collection.\n__11/4/21__: Added ***roll*** and ***y/n*** commands.\n__11/2/21__: Added ***Jackson*** and ***Roxy*** commands.\n__11/1/21__: Ryan Bot was created. Commands include: ***help***, ***ping***.");
+  msg.channel.send("__1/15/22__: Began learning HTML/CSS web development. See my progress at my personal website here: https://wongryan8.github.io/recipes/\n__1/3/22__: Completed Tic-Tac-Toe with the option to play versus other players or RyanBot. Try ***help ttt*** for instructions.\n__12/30/21__: Completed the 21 Pickup Game with full emoji capabilities as user inputs and MongoDB statistics. Try ***pickup*** for instructions.\n__12/19/21__: Completed the stats functionality for Blackjack on MongoDB.\n__12/5/21__: Moved database to Google API and MongoDB to avoid rollback of data. Enhanced blackjack and betting tool functionalities.\n__11/21/21__: Finished the Blackjack game. Try ***help blackjack*** for instructions.\n__11/8/21__: The Betting Tool has been completed. Try ***help bet*** for instructions.\n__11/7/21__: Added ***collect*** and ***balances*** commands for point collection.\n__11/4/21__: Added ***roll*** and ***y/n*** commands.\n__11/1/21__: Ryan Bot was created. Commands include: ***help***, ***ping***.");
 
 //Help Command Log
 } else if (msg.content.toLowerCase() === "help") {
@@ -44,14 +44,6 @@ if (msg.content.toLowerCase() === "website") {
 //pingpong statement
 } else if (msg.content.toLowerCase() === "ping") {
   msg.channel.send("pong")
-
-//roxy statement
-} else if (msg.content.toLowerCase() === "roxy") {
-  msg.channel.send("is a good dog")
-
-//jackson statement
-} else if (msg.content.toLowerCase() === "jackson") {
-  msg.channel.send("is a bad dog")
 
 //random 0-100% chance roll
 } else if (msg.content.toLowerCase() === "roll") {
